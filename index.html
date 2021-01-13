@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Checkers</title>
+  <meta name="description" content="Title">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <table>
+  <tr>
+  <td class = "noPieceHere"></td>
+  <td><p class="red-piece" id="0"></p></td>
+  <td class = "noPieceHere"></td>
+  <td><p class="red-piece" id="1"></p></td>
+  <td class = "noPieceHere"></td>
+  <td><p class="red-piece" id="2"></p></td>
+  <td class = "noPieceHere"></td>
+  <td><p class="red-piece" id="3"></p></td>
+  </tr>
+  <tr>
+    <td><p class="red-piece" id="4"></p></td>
+    <td class = "noPieceHere"></td>
+    <td><p class="red-piece" id="5"></p></td>
+    <td class = "noPieceHere"></td>
+    <td><p class="red-piece" id="6"></p></td>
+    <td class = "noPieceHere"></td>
+    <td><p class="red-piece" id="7"></p></td>
+    <td class = "noPieceHere"></td>
+  </tr>
+  <tr>
+    <td class = "noPieceHere"></td>
+    <td><p class="red-piece" id="8"></p></td>
+    <td class = "noPieceHere"></td>
+    <td><p class="red-piece" id="9"></p></td>
+    <td class = "noPieceHere"></td>
+    <td><p class="red-piece" id="10"></p></td>
+    <td class = "noPieceHere"></td>
+    <td><p class="red-piece" id="11"></p></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class = "noPieceHere"></td>
+    <td></td>
+    <td class = "noPieceHere"></td>
+    <td></td>
+    <td class = "noPieceHere"></td>
+    <td></td>
+    <td class = "noPieceHere"></td>
+  </tr>
+  <tr>
+    <td class = "noPieceHere"></td>
+    <td></td>
+    <td class = "noPieceHere"></td>
+    <td></td>
+    <td class = "noPieceHere"></td>
+    <td></td>
+    <td class = "noPieceHere"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><span class="black-piece" id="00"></span></td>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="01"></span></td>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="02"></span></td>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="03"></span></td>
+    <td class = "noPieceHere"></td>
+  </tr>
+  <tr>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="04"></span></td>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="05"></span></td>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="06"></span></td>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="07"></span></td>
+  </tr>
+  <tr>
+    <td><span class="black-piece" id="08"></span></td>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="09"></span></td>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="010"></span></td>
+    <td class = "noPieceHere"></td>
+    <td><span class="black-piece" id="011"></span></td>
+    <td class = "noPieceHere"></td>
+  </tr>
+</table>
+<div class="red-turn-text">
+  Red's Turn
+</div>
+<p id="divider"> | </p>
+<div class="black-turn-text">
+  Black's Turn
+</div>
+</body>
+</html>

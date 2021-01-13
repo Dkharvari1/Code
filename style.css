@@ -1,0 +1,39 @@
+/*style code here*/
+td {
+    background-color: #BA7A3A;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+}
+
+.noPieceHere {
+    background-color: #F0D2B4;
+}
+
+.black-piece{
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-left: 12px;
+}
+
+.red-piece{
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-left: 12px;
+}
+
+.king.red-piece{
+    background-color: orange;
+}
+
+.king.black-piece{
+    background-color: purple;
+}
